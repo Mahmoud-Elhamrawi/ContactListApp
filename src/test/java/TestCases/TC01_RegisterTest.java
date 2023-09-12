@@ -37,12 +37,7 @@ public class TC01_RegisterTest extends TC_TestBase {
 
          register = new P02_RegisterPage(driver);
 
-//         register.registerSteps(firstName ,lastNam ,Email,Password);
-            register.setFN(firstName);
-            register.setLN(lastName);
-            register.setEmail(Email);
-            register.setPass(Password);
-            register.submit();
+        register.registerSteps(firstName ,lastName ,Email,Password);
 
          Thread.sleep(3000);
          System.out.println(driver.getCurrentUrl());
