@@ -22,10 +22,17 @@ public class P01_HomePage extends P_PageBase {
         clickBtn(driver.findElement(registBtn));
     }
 
-
-
-
-
+//    public  void  registerSteps(String FN , String LN ,String emi ,String password)
+//
+//    {
+//        sendData(driver.findElement(fName),FN);
+//        sendData(driver.findElement(lName),LN);
+//        sendData(driver.findElement(email),emi);
+//        sendData(driver.findElement(pass),password);
+//        clickBtn(driver.findElement(submitBtn));
+//    }
+//
+//
 
 
 }
