@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="end2end scenairo" verbose="1" >
+
+    <test name="Regression test">
+        <classes>
+            <class name="TestCases.TC03_end2endScenairo"/>
+        </classes>
+    </test>
+</suite>

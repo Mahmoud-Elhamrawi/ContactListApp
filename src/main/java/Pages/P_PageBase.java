@@ -32,6 +32,12 @@ public WebDriver driver ;
 
 
 
+    public  void clearInput(WebElement ele)
+    {
+        WebDriverWait wait = new WebDriverWait(driver , Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.elementToBeClickable(ele));
+        ele.clear();
+    }
 
 
 

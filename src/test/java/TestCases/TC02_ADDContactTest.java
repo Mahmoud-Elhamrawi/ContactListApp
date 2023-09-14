@@ -9,7 +9,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TC_02ADDContactTest extends TC_TestBase{
+public class TC02_ADDContactTest extends TC_TestBase{
 
     P03_AddContactPage addcontact ;
     P01_HomePage hp ;
