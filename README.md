@@ -4,8 +4,8 @@ This application is for testing purposes only.
 <ul>
   <li>java</li>
   <li>selenium WebDriver</li>
-  <li>testNG<li>
-  <li>POM<li>
-  <li>allure reports<li>
-  <li>mvn cmd<li>
+  <li>testNG</li>
+  <li>POM</li>
+  <li>allure reports</li>
+  <li>mvn cmd</li>
 </ul>
