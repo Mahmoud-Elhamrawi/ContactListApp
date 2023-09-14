@@ -2,7 +2,7 @@
 
 <suite name="end2end scenairo" verbose="1" >
 
-    <test name="Regression test">
+    <test name="Regression test" preserve-order="false">
         <classes>
             <class name="TestCases.TC03_end2endScenairo"/>
         </classes>
