@@ -7,5 +7,6 @@ This application is for testing purposes only.
   <li>testNG</li>
   <li>POM</li>
   <li>allure reports</li>
+  <li>screen shots when fail tc</li>
   <li>mvn cmd</li>
 </ul>
