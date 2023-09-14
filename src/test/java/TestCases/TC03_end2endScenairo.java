@@ -37,7 +37,7 @@ public class TC03_end2endScenairo extends TC_TestBase {
 
         register = new P02_RegisterPage(driver);
 
-        register.registerSteps("weal", "ali", "weal19@gmail.com", "123456789");
+        register.registerSteps("weal", "ali", "weal21@gmail.com", "123456789");
 
         Thread.sleep(3000);
         System.out.println(driver.getCurrentUrl());
@@ -61,7 +61,7 @@ public class TC03_end2endScenairo extends TC_TestBase {
     @Test(priority = 3)
     public void login() throws InterruptedException {
         login = new P05_loginPAge(driver);
-        login.loginSteps("weal19@gmail.com", "123456789");
+        login.loginSteps("weal21@gmail.com", "123456789");
         System.out.println(driver.getCurrentUrl());
         Thread.sleep(1000);
         sa.assertTrue(driver.getCurrentUrl().contains("contactList"));
